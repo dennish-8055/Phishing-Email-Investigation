@@ -1,0 +1,21 @@
+{
+    "case_type": "Email phishing triage",
+    "source_file": "samples\\sample_test_email.eml",
+    "sender": "IT Helpdesk <helpdesk@example.org>",
+    "recipient": "employee@example.com",
+    "subject": "Scheduled Maintenance Notice",
+    "date": "Sun, 18 Oct 2026 10:00:00 +0000",
+    "reply_to": "Not provided",
+    "message_id": "<training-case-002@example.org>",
+    "extracted_urls": [],
+    "observations": [
+        "No URLs were extracted from the email body."
+    ],
+    "limitations": [
+        "This tool performs basic triage, not a definitive phishing verdict.",
+        "URLs are extracted as text and are never opened.",
+        "Email authentication is not verified by this script.",
+        "URL extraction does not establish whether a destination is malicious.",
+        "Header values are not independently authenticated by this script."
+    ]
+}

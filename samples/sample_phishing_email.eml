@@ -1,0 +1,27 @@
+From: Microsoft Account Security <security@example.net>
+To: employee@example.com
+Date: Mon, 12 Oct 2026 09:15:00 +0000
+Subject: Urgent: Account Verification Required
+Message-ID: <training-case-001@example.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Hello User,
+
+Your account requires verification to prevent interruption
+of service.
+
+Please review your account information within 24 hours.
+
+Training URL: hxxps://account-verification.example.com/login
+
+Failure to complete verification may result in temporary
+account restrictions.
+
+Regards,
+Account Security Team
+
+TRAINING NOTE:
+This is a synthetic email created for cybersecurity education.
+The sender, recipient, and URL are fictional.
+No actual authentication or delivery occurred.

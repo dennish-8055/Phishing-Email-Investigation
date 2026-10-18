@@ -1,0 +1,50 @@
+{
+    "case_type": "Email phishing triage",
+    "source_file": "sample_phishing_email.eml",
+    "sender": "Microsoft Account Security <security@example.net>",
+    "recipient": "employee@example.com",
+    "subject": "Urgent: Account Verification Required",
+    "date": "Mon, 12 Oct 2026 09:15:00 +0000",
+    "reply_to": "Not provided",
+    "message_id": "<training-case-001@example.net>",
+    "return_path": "Not provided",
+    "received_headers": [],
+    "header_analysis": {
+        "sender_address": "security@example.net",
+        "reply_to_address": null,
+        "reply_to_mismatch": null,
+        "observations": [
+            "No usable Reply-To address was provided, so a mismatch could not be assessed."
+        ]
+    },
+    "extracted_urls": [
+        "hxxps://account-verification.example.com/login"
+    ],
+    "url_analysis": [
+        {
+            "url": "hxxps://account-verification.example.com/login",
+            "defanged_notation": true,
+            "hostname": "account-verification.example.com",
+            "observations": [
+                "The URL uses defanged notation and has not been visited."
+            ]
+        }
+    ],
+    "observations": [
+        "The subject contains urgency-related wording. This is an observation, not proof of phishing.",
+        "No Return-Path header was provided in this email sample.",
+        "No Received headers were provided in this email sample.",
+        "The email contains 1 unique URL-like string(s). Review them safely without visiting them."
+    ],
+    "limitations": [
+        "This tool performs basic triage, not a definitive phishing verdict.",
+        "URLs are extracted as text and are never opened.",
+        "URL hostnames are parsed locally and are not contacted.",
+        "Email authentication is not verified by this script.",
+        "URL extraction does not establish whether a destination is malicious.",
+        "Header values are not independently authenticated by this script.",
+        "Reply-To mismatches are investigative clues, not proof of phishing.",
+        "Received headers are collected but are not independently validated.",
+        "Missing headers in a sample do not establish malicious activity."
+    ]
+}

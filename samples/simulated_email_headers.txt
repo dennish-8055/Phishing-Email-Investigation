@@ -1,0 +1,15 @@
+SIMULATED TRAINING DATA — NOT FROM A REAL EMAIL
+
+From: Microsoft Account Security [security@example.net](mailto:security@example.net)
+Reply-To: [account-help@example.org](mailto:account-help@example.org)
+Return-Path: [bounce@example.org](mailto:bounce@example.org)
+Date: Mon, 12 Oct 2026 09:15:00 +0000
+Subject: Urgent: Account Verification Required
+Message-ID: [training-case-001@example.net](mailto:training-case-001@example.net)
+Received: from mail.training.example (192.0.2.25) by mx.training.example
+Authentication-Results: mx.training.example; spf=fail; dkim=none; dmarc=fail
+
+TRAINING LIMITATIONS:
+These headers and authentication results are fictional.
+The IP address belongs to a documentation-only address range.
+No actual SPF, DKIM, or DMARC checks were performed.
