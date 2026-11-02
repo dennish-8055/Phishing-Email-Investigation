@@ -253,3 +253,13 @@ Potential extensions include:
 ## 👨‍💻 Author
 
 Cybersecurity portfolio project focused on Python scripting, email investigation, and foundational SOC Analyst workflows.
+
+📄 License
+
+This project is licensed under the MIT License.
+
+<div align="center">
+
+⭐ Thank you for visiting my project!
+
+</div>
